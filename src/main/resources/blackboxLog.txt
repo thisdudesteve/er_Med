@@ -1,0 +1,20 @@
+16.Dezember.2024 07:00:00.000: [Patient] Hat keine Beschwerden.
+16.Dezember.2024 07:01:00.000: [Patient] Starte Morgenmedikation-Routine
+16.Dezember.2024 07:02:00.000: [Patient] Ist nüchtern: true
+16.Dezember.2024 07:03:00.000: [Patient] Beginne Pantoprazol-Verabreichung
+16.Dezember.2024 07:04:00.000: [Patient] Pantoprazol eingenommen: true, korrekte Menge: true
+16.Dezember.2024 07:05:00.000: [Patient] Beginne Metaprolol-Verabreichung
+16.Dezember.2024 07:06:00.000: [Patient] Metaprolol eingenommen: true, mit Wasser: true, korrekte Menge: true
+16.Dezember.2024 07:07:00.000: [Patient] Beginne ASS100-Verabreichung
+16.Dezember.2024 07:08:00.000: [Patient] ASS100 eingenommen: true, unzerkaut: true, korrekte Menge: true
+16.Dezember.2024 07:09:00.000: [Patient] Hat keine Beschwerden.
+16.Dezember.2024 07:10:00.000: [Patient] Prüfe Mittagsmedikation - keine Einnahmen vorgesehen
+16.Dezember.2024 07:11:00.000: [Patient] Hat keine Beschwerden.
+16.Dezember.2024 07:12:00.000: [Patient] Prüfe Mittagsmedikation - keine Einnahmen vorgesehen
+16.Dezember.2024 07:13:00.000: [Patient] Hat keine Beschwerden.
+16.Dezember.2024 07:14:00.000: [Patient] Starte Abendmedikation-Routine
+16.Dezember.2024 07:15:00.000: [Patient] Beginne Doxazosin-Verabreichung
+16.Dezember.2024 07:16:00.000: [Patient] Beginne Doxazosin-Verabreichung
+16.Dezember.2024 07:17:00.000: [Patient] Doxazosin eingenommen: true, korrekte Menge: true
+16.Dezember.2024 07:18:00.000: [Patient] Beginne Simvastatin-Verabreichung
+16.Dezember.2024 07:19:00.000: [Patient] Simvastatin eingenommen: true, korrekte Menge: true, mit Grapefruit: false

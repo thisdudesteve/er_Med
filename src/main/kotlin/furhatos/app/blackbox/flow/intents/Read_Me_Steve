@@ -1,0 +1,24 @@
+Das Programm läuft wie folgt ab
+    1. Init State (setzen von Sprache etc.) wenn Virtual furhat dann weiter zu FakeStaes
+    2. FakeStates ist der 1. große Simulations Zustand (setze Benutzer/Datum/Wochentag/Uhrzeit) dann weiter je nach nutzer
+        ((Sicherheitscode für Pflegekraft 123))
+
+    3.1 Wenn Pflegekraft also userPflege = true dann gehe zu refillState
+    3.2 Wenn User also userPflege = false dann gehe zu State je nach Uhrzeit (Optimalfall morning State) (zuweisung von Uhrzeit zu Zeitperiode kannst du in timeToPeriode.kt nachschauen)
+
+    4. morningState hier ist die einnahme der ersten 3 Medikamente mit abfragen ob eingenommen und wie eingenommen. wenn fertig gehe zu SimState in dem File furtherSimulationState.kt
+    5. furtherSimulationState.kt enthält Zustände zur weiteren Simulation also wenn mann z.B. Die Zeit auf Nacht setzen will um die weiteren Einnahmen zu Simulieren.
+        hier kann mann auch Datum und Nutzer wechseln.
+        Es werden aber bei z.B dem wechseln des Datums/Wochentags vorher alle logVariablen gelöscht (durch hilfsfunktionen. Wenn du die nachschauen willst, die sind in resetVar.kt)
+        Also die idee in furtherSimulationState -> SimState -> onEntry alle logVariablen schreiben (vielleicht nicht optimal aber musst du schauen (stelle vorsichtshalber makiert))
+
+
+    Zusatzinfos:
+    Es gibt logVariablen in fakeStates.kt, in morningState.kt  in nightState.kt und refillState.kt ----> alle gekennzeichnet durch den Namen log*****.
+    nightState.kt ist eig das gleiche wie morningState.kt so von der funktion her.
+    Alle anderen jeztz nicht explizit erwähnten Files sollten für dich irrelevant sein und dienen nur zu extra berechnungen etc.
+    die logVariablen mit dem nahmen log*****Unsicher sind Variablen die einen logikfehler durch den Nutzer symbolisieren ... also es wurden alle einnahme möglichkeiten eines Medikaments abgefraft und die aussage des Nutzers ist trotzdem Unschlüssig
+
+    Nochmal Wichtig !!!
+    Die von mir ausgesuchte Stelle zum Schreiben der LogVariablen muss nochmal dringend durchdacht werden.
+    Bei fragen schreib mir einfach
